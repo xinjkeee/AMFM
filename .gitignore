@@ -1,0 +1,52 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Plans
+current_plan.md
+decisions.md
+diplom_plan_explanation.md
+diplom_plan.md
+
+
+# Operating system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local generated market data.
+*.csv
+*.parquet
+*.feather
+
+# Generated experiment outputs
+outputs/
+results/
+figures/
+logs/
+*.pkl
+*.pickle
+*.joblib
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
